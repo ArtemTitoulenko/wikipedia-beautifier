@@ -21,6 +21,20 @@ function wiknifier()
     bodyContent.style.marginTop = "1em";
     bodyContent.style.background = "#fbfbfb";
 
+	var content = document.getElementById("content");
+	var mwHeadBase = document.getElementById("mw-head-base");
+	var footer = document.getElementById("footer");
+	content.style.marginRight = mwHeadBase.style.marginRight = footer.style.marginRight = "10em";
+	content.style.minWidth = mwHeadBase.style.minWidth = footer.style.minWidth = "960px";
+	content.style.borderRight = "1px solid #A7D7F9";
+	
+	var pres = document.getElementsByTagName("pre");
+	
+	for(i = 0; i < pres.length; i++) {
+		pres[i].style.overflow = "auto";
+	}
+	
+
     function parentDiv(element)
     {
         return (!element.parentNode || element.parentElement.tagName == "DIV") ?

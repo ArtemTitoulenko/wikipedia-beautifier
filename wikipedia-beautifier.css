@@ -1,0 +1,66 @@
+/*
+ * Copyright (C) 2011 Scott Wheeler <wheeler@kde.org>
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+#mw-head, #mw-panel {
+    opacity: 0;
+    -webkit-transition: all 400ms ease-in-out;
+}
+
+#mw-head:hover, #mw-panel:hover {
+    opacity: 1;
+}
+
+#firstHeading {
+    font-family: "minion-pro-1", "minion-pro-2", Palatino, Georgia, "Times New Roman", serif;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border: none;
+    font-weight: bold;
+}
+
+
+#bodyContent {
+    line-height: 1.55em;
+    font-size: 1.0em;
+    font-family: "minion-pro-1", "minion-pro-2", Palatino, Georgia, "Times New Roman", serif;
+    border: 1px solid #ccc;
+    width: 800px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    background: #fbfbfb;
+}
+
+.infobox,
+.tright, .tleft, div.tright, div.tleft,
+.taxobox, table.taxobox,
+.wikitable {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.ambox, table.ambox {
+    margin: 1.5em 10%;
+}
+
+pre {
+    overflow: auto;
+}

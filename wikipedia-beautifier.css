@@ -24,6 +24,15 @@
     opacity: 1;
 }
 
+#mw-head-base, #content, #footer {
+	margin-right: 10em;
+	min-width: 960px;
+}
+
+#content {
+	border-right: 1px solid #A7D7F9;
+}
+
 #firstHeading {
     font-family: "minion-pro-1", "minion-pro-2", Palatino, Georgia, "Times New Roman", serif;
     width: 900px;
